@@ -31,7 +31,7 @@ public class ApplicationRunner {
                 System.out.println("Incorrect input, it must be a letter.");
                 continue;
             }
-            ;
+
             if (Character.isLetter(letter.value.charAt(0))) {
                 isCorrectInputByUser = true;
             } else {
